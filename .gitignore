@@ -1,0 +1,58 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python virtual env
+venv/
+ENV/
+env/
+
+# Node dependencies
+node_modules/
+
+# Compiled files
+*.class
+*.pyc
+*.o
+*.out
+*.so
+*.dll
+*.exe
+
+# JSON & GEOJSON
+*.json
+*.geojson
+*.csv
+
+# Environment variables
+.env
+.env.*
+
+# Backup & temp files
+*~
+*.swp
+*.bak
+*.tmp
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build/output directories
+dist/
+build/
+__pycache__/
+.cache/
+coverage/
+
+# OS-generated files
+ehthumbs.db
+Desktop.ini
