@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-07-29 12:04:37.495030",
+  "files": {
+    "sample_accidents": "data/raw/sample_accidents_india.csv",
+    "roads_mumbai": "data/raw/roads_mumbai.geojson",
+    "roads_delhi": "data/raw/roads_delhi.geojson",
+    "roads_bangalore": "data/raw/roads_bangalore.geojson"
+  }
+}
