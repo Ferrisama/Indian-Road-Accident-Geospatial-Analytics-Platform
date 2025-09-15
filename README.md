@@ -1,4 +1,4 @@
-# 🚗 AccidentIQ: AI-Powered Road Safety Analytics
+#  AccidentIQ: AI-Powered Road Safety Analytics
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5.0-orange.svg)](https://spark.apache.org)
@@ -8,37 +8,37 @@
 
 **AccidentIQ** is a comprehensive geospatial big data analytics platform that processes road accident data across Indian cities, providing AI-powered insights for urban planning, traffic optimization, and road safety improvements.
 
-## 🌟 Key Features
+##  Key Features
 
-### 🔥 **Big Data Processing**
+###  **Big Data Processing**
 
 - **Apache Spark + Sedona**: Process millions of accident records with geospatial operations
 - **H3 Spatial Indexing**: Uber's hexagonal hierarchical spatial index for efficient geographic analysis
 - **PostGIS Integration**: Advanced spatial queries and geometric operations
 - **Real-time ETL Pipelines**: Automated data processing and feature engineering
 
-### 🤖 **Machine Learning Models**
+###  **Machine Learning Models**
 
 - **Accident Severity Prediction**: XGBoost classifier with 89% accuracy
 - **Hotspot Detection**: LightGBM model identifying high-risk areas
 - **Casualty Prediction**: Random Forest regressor for impact assessment
 - **Risk Scoring**: Multi-factor risk assessment algorithm
 
-### 📊 **Interactive Analytics Dashboard**
+###  **Interactive Analytics Dashboard**
 
 - **Real-time Heatmaps**: Folium-based accident density visualization
 - **Temporal Analysis**: Rush hour patterns, seasonal trends, day-of-week analysis
 - **City Comparisons**: Multi-city accident statistics and risk metrics
 - **Predictive Interface**: Real-time risk assessment for any location
 
-### 🌐 **REST API**
+###  **REST API**
 
 - **FastAPI Endpoints**: High-performance API for real-time predictions
 - **Swagger Documentation**: Interactive API documentation
 - **City Analytics**: Comprehensive risk reports for urban planners
 - **Hotspot Identification**: Automated detection of accident-prone areas
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -51,7 +51,7 @@
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -249,7 +249,7 @@ df['vehicle_risk_score'] = df['vehicle_type'].map(vehicle_risk_mapping)
 - **Redis**: Caching and session storage
 - **Jupyter**: Data exploration and analysis
 
-## 🌐 API Documentation
+##  API Documentation
 
 ### Endpoints
 
@@ -307,7 +307,7 @@ GET /analytics/hotspots?city=Delhi&limit=10
 GET /analytics/temporal?analysis_type=hourly&city=Bangalore
 ```
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
 ### Overview Tab
 
@@ -343,7 +343,7 @@ GET /analytics/temporal?analysis_type=hourly&city=Bangalore
 - **Emergency Response**: Optimal ambulance placement
 - **Infrastructure Improvements**: Targeted safety interventions
 
-## 🚀 Deployment Guide
+## Deployment Guide
 
 ### Local Development
 
@@ -392,7 +392,7 @@ kubectl apply -f k8s/api.yaml
 kubectl apply -f k8s/dashboard.yaml
 ```
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### Data Processing
 
@@ -415,7 +415,7 @@ kubectl apply -f k8s/dashboard.yaml
 - **Real-time Updates**: WebSocket-based data refresh
 - **Mobile Responsive**: Works on all device sizes
 
-## 💡 Business Impact & Use Cases
+## Business Impact & Use Cases
 
 ### Urban Planning
 
@@ -438,7 +438,7 @@ kubectl apply -f k8s/dashboard.yaml
 - **Public Health**: Reduce accident-related healthcare burden
 - **Smart Cities**: Integration with IoT and traffic management systems
 
-## 🔧 Advanced Configuration
+##  Advanced Configuration
 
 ### Environment Variables
 
@@ -482,7 +482,7 @@ FROM accidents GROUP BY hour, city;
 SELECT cron.schedule('refresh-stats', '0 1 * * *', 'REFRESH MATERIALIZED VIEW accident_hourly_stats;');
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests
 
@@ -513,7 +513,7 @@ pytest tests/integration/test_database.py -v
 locust -f tests/performance/api_load_test.py
 ```
 
-## 📚 Educational Resources
+## Educational Resources
 
 ### Documentation
 
@@ -529,7 +529,7 @@ locust -f tests/performance/api_load_test.py
 - `notebooks/03_ml_experiments.ipynb`: Model development and tuning
 - `notebooks/04_visualization.ipynb`: Advanced plotting techniques
 
-## 🤝 Contributing
+## Contributing
 
 ### Development Setup
 
@@ -557,11 +557,11 @@ flake8 src/
 4. **Performance**: Ensure changes don't degrade performance
 5. **Security**: Follow security best practices
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Data Sources**: Government of India Open Data Platform
 - **Geospatial Libraries**: Apache Sedona, PostGIS, H3, OSMnx
@@ -569,15 +569,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Visualization**: Streamlit, Plotly, Folium teams
 - **Infrastructure**: Docker, PostgreSQL, Apache Spark projects
 
-## 📞 Contact & Support
+##  Contact & Support
 
-- **GitHub Issues**: [Project Issues](https://github.com/yourusername/accidentiq-geospatial/issues)
-- **Documentation**: [Project Wiki](https://github.com/yourusername/accidentiq-geospatial/wiki)
+- **GitHub Issues**: [Project Issues](https://github.com/ferrisama/accidentiq-geospatial/issues)
+- **Documentation**: [Project Wiki](https://github.com/ferrisama/accidentiq-geospatial/wiki)
 - **Email**: asmitghosh3@gmail.com
 - **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/asmit-ghosh/)
 
 ---
 
-**⭐ Star this repository if you find it useful!**
+** Star this repository if you find it useful!**
 
-Built with ❤️ for safer roads and smarter cities.
+Built with love for safer roads and smarter cities.
