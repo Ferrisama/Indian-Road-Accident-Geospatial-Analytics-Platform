@@ -114,7 +114,7 @@ uvicorn src.api.api_endpoint:app --reload
 # API Docs: http://localhost:8000/docs
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 accidentiq-geospatial/
@@ -147,7 +147,7 @@ accidentiq-geospatial/
 └── README.md
 ```
 
-## 📊 Data Sources
+##  Data Sources
 
 ### Government Data (Free)
 
@@ -167,7 +167,7 @@ accidentiq-geospatial/
 - **Traffic Data**: Google Maps API integration
 - **Emergency Services**: Hospital/police station locations
 
-## 🤖 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
 ### 1. Feature Engineering
 
@@ -200,7 +200,7 @@ df['vehicle_risk_score'] = df['vehicle_type'].map(vehicle_risk_mapping)
 | Hotspot Detection   | Precision | 84.7% | Urban planning insights     |
 | Casualty Prediction | R² Score  | 0.763 | Emergency response planning |
 
-## 📈 Key Analytics & Insights
+## Key Analytics & Insights
 
 ### Temporal Patterns
 
@@ -220,7 +220,7 @@ df['vehicle_risk_score'] = df['vehicle_type'].map(vehicle_risk_mapping)
 - **Night Driving**: 45% increase in fatal accident probability
 - **Weather Conditions**: Rain increases accident risk by 85%
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Big Data & Processing
 
@@ -282,8 +282,8 @@ Content-Type: application/json
   "risk_score": 1.68,
   "risk_level": "MEDIUM",
   "recommendations": [
-    "🚦 Rush hour - expect heavy traffic",
-    "🛣️ Highway driving - maintain safe speeds"
+    " Rush hour - expect heavy traffic",
+    " Highway driving - maintain safe speeds"
   ],
   "h3_index": "8828308281fffff"
 }
